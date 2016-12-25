@@ -5,9 +5,7 @@ import {Hello} from './hello';
 @Component({
   selector: 'my-app',
   directives: [Hello],
-  template: '
-  <hello-world [message]="myMessage"></hello-world>
-  '
+  template: '<hello-world [message]="myMessage"></hello-world>'
 })
 export class App {
   constructor() {
