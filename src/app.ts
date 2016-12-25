@@ -11,6 +11,6 @@ import {Hello} from './hello';
 })
 export class App {
   constructor() {
-    this.myMessage = Angular2';
+    this.myMessage = 'Angular2';
   }
 }
