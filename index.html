@@ -1,7 +1,17 @@
+<!DOCTYPE HTML>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>React Hello World</title>
+  </head>
+ <!---/*
+  * DEVelopmet CDN
+  * For ease of use, including the React, ReactDOM and Babel CDN
+  * builds to make getting started as fast as possible.
 
-<!---/*
- * DEVelopmet CDN
+In production, want to use something like Gulp, Grunt or WebPack  
+to compile JSX into JavaScript.
+
  -->
   <script src="https://unpkg.com/react@15/dist/react.js"></script>
   <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
@@ -18,5 +28,11 @@
     <div id="root">  <!-- /* place to hang Hello*/ -->
     </div>
   </body>
+
+  <!--
+      This is where you link to your React code. Can be .js or .jsx
+      extension, doesn't really matter.
+  -->
+  <script src="scripts.js" type="text/babel"></script>
 
 </html>
